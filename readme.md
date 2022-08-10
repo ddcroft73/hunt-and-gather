@@ -13,7 +13,7 @@
 
 When an emp is set to learn a route, it usually takes at least one day (can take up to 3 with new hires to get as familiar as they really need to be.) and the focus of 2 men. THe employee needs to know the location of every part, which parts run the fastest and other vital information. Information can be curated about each routes special quirks that normally take a good while to learn. Usually all these thigs are learned through repetion and a lot of the time a new employee can feel overwhemled trying to juggle all the locations and keep up with the fastest running parts, and offer information and techniques to elp an employee multitask as they need to do.. THe use of this application will take the pressure off of the trainer and the trainee and also seve as detailed pocket refernce as well, until they no longer needd it. but will come in handy in a pinch and alos be avainalbe te next time they need to learn a new routhe..
 
-## *ENd INtro
+## *ENd INtro  ##Workon the grammar, spelling and the whole delivery##
 
 
 ## Idea:
@@ -35,6 +35,7 @@ The employess route and parts maintained for the day can be tallied and reported
 Ultimately the consumption of a routes parts may be tracked for long periods of time in this manner and will make available useful infromation to the supervisor.
 
 ## Basic application usage:
+##Edit this to account for the use of phase one, which will not require registration
   1. Employee will register their information with the application.
   2. Employee wil log in, and may stay logged in.
   3. The 'HomePage' presented will be a simple option list from which they will select their designated route.
