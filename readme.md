@@ -4,54 +4,53 @@
 ## Purpose:
 
 
-## *WIP on the intro data.
-- To lessen the time and cost spent training employees. 
-- This application will allow a new employee to learn the job faster and will consolidate the need for two men on one job the entire time training. 
-- Will also be indespensible when current employees need to switch to an unfamiliar route or learn a new route.
+- Lessen the time and cost spent training employees. 
+- Allow a new employee to learn the job faster. 
+- Allow for far less time shadowing a trainer.
+- Allow current employess to learn a new route without a trainer.
 
-   - Comman cenario: John is out sick today, but for some reason no one on the job today has ran the route before. Normally the employee would have to shadow john for a few hours on a previous day, or entire day to get the hang of the route. Using the app all the information they need will be avaiable via a webapp hosted on the companies internal server that the employee can access on their mobile device, but is unavailble outside of the plant. No download is needed and will run on any device. The application will tell the employee everything they need to know about the new route and will serve as a pocket trainer until they know the route as well as John.
+## Usage Scenario 1:
+A new employee has been hired. A current employee is used to train them as per usual, and in addition to the normal trial and error of learning the route and all the nuances of how the route runs, the new employee will have access to am application that will allow them to locate any part as needed, without the help of the trainer, once they have an idea of how the route is ran. This will allow for the training process to take far less time from the trainer and they can resume duties elsewhere.
+  
+## Usage Scenario 2:
+Employee 1 is absent, and no other employee on shift has ran their route. Employee 2 gets assigned to the route and although they have never ran it they can immediately have all the relevent information to run the route successfully.
 
-When an emp is set to learn a route, it usually takes at least one day (can take up to 3 with new hires to get as familiar as they really need to be.) and the focus of 2 men. THe employee needs to know the location of every part, which parts run the fastest and other vital information. Information can be curated about each routes special quirks that normally take a good while to learn. Usually all these thigs are learned through repetion and a lot of the time a new employee can feel overwhemled trying to juggle all the locations and keep up with the fastest running parts, and offer information and techniques to elp an employee multitask as they need to do.. THe use of this application will take the pressure off of the trainer and the trainee and also seve as detailed pocket refernce as well, until they no longer needd it. but will come in handy in a pinch and alos be avainalbe te next time they need to learn a new routhe..
+THe alternative is to put two men on the route days ahead and occupy the time of both men until employee 2 is up to speed. Or to send employee 2 into the wild, blind and hope they figure it out
 
-## *ENd INtro  ##Workon the grammar, spelling and the whole delivery##
-
-
-## Idea:
+## Application Benefits:
 
 Employees will no longer need to be shadowed for a period of days. Using this application, an employee will:
   1. Know all part locations without having to spend unneccasary time through trial and error.
-  2. (*)Know what parts need the most attention. 
+  2. Know what parts need the most attention. 
   3. Have a full description of the part.
   4. Have an image indentifier for the part.
-  5. Have access to a map to show the part location from the home route.
-  6. Have the option of a generated checklist the employee can use to ensure the parts they need and make less trips for forgotten parts.
+  5. Generate a shopping list to be used each time they need to replenish the route.
 
 Supervisors will get vital information from the application user:
- - Employee\supervisor paging system: (*)Currently only one way communication.
+ - Employee\supervisor paging system: 
     1. Employees may be reached by the supervisor without knowing their personal information. Phone number.
     2. Supervisors may  be reached by the employee without knowing their personal information. Phone number.
+ - Daily report:
+   - The parts used can be tracked for the day, week, month and the results may be reported to the supervisor at any time.
 
-The employess route and parts maintained for the day can be tallied and reported by the end of the shift.   
-Ultimately the consumption of a routes parts may be tracked for long periods of time in this manner and will make available useful infromation to the supervisor.
-
-## Basic application usage:
-##Edit this to account for the use of phase one, which will not require registration
-  1. Employee will register their information with the application.
-  2. Employee wil log in, and may stay logged in.
-  3. The 'HomePage' presented will be a simple option list from which they will select their designated route.
-  4. A simple list, ordered by High to Low will then be generated from the parts database.
+## Basic application usage to find part information:
+The app will be developed in stages from simple general usage, and finally with custom settings and stats for employees and supervisors.
+THe app is designed to run in  the users browser on any devise and will be hostedd on the companies server. Only to be accesed inside the plant.
+  1. If needed the employees and supervisors will register and login, Users may remain loggedd for up to one month. (stage 2)
+  2. A landing page with the users stats and info will be loaded on login, and the user will make choices as to what they need to do.
+     
+  3. User will select 'Routes' and will be  presented with a simple option list from which they will select their designated route.
+  4. A simple list, ordered by High to Low runners will then be generated from the parts database.
     - The list will be comprised of:
-        - Part ID - Part Location - Part info - Part add to list
-        - Part info will give extra data about the part, picture and simple map to exact location.
-        - An employee may generate a personal checklist from here by "Adding" the part to a list with a click\tap.
-  5. Once the employee has gathered the needed items for the current run, A list will be generated to be checked off
-     as each part is aquired. 
-  6. At any time a report may be generated, and said report can be emailed to the supervisor.
+        - Part ID - Part Location - Part info - Add to shop list, Delete from shop list
+        - Each one can be selected for more info.
+        - An employee may generate a personal check\shopping list from here by "Adding" the part to a list with a click\tap.  
+  5. At any time a report may be generated, and said report can be emailed to the supervisor.
 
 ___ 
 <br>
 
-* ## Parts classification:
+## Parts classification:
 
   All parts will be rated on a 3 tier system, ordered and color coded by rate of consumption.
     - Red - High runners.
@@ -59,40 +58,38 @@ ___
     - Blue - Low runners.
     The parts may be sorted by the way they are located on the line, or by rate of use.
 
-* ## Paging System:
+## Paging System:
     - The supervisor and employess will be able to send text messages directly to each other without the need to
       share phone numbers. This feature is in Beta and currrenly only allows th communucation to be sent one way.    
     - There is no need for the pagee to be logged into the system to receive a text. The application uses the persons
       personal phone number they submit at registration but the numbers are only known by the application. The pager
       must be logged in to issue a "Page".  
 <br><br>
+
 ## Production Phases:
 
-The application will be produced in five different phases.
+The application will be produced in four different phases.
    * Phase I
       - A simple dynamically produced page that connects to a database. Users will not log in and everyone will see the same data. It is in this phase I plan to work out some of the kinks for the basic UI.
       - Basic checklist generation.
    * Phase II
-      - User\Supervisor registration and login will be implemented along with better overall design. Navbar for quick site navigation. Fully formed Database entries with image and product description.
+      - User\Supervisor registration and login will be implemented along with better overall design. Fully formed Database entries with image and product description.
    * Phase III
       - Implementation of user generated reports to be emailed to the supervisor. 
    * Phase IV
       - Fully functional messaging system to be used between super and employee.
-   * Phase V
-      - Integrated QR Scanner to make checklists faster and easier.   
+   
+## An even better Solution:
+A more modern, faster and cleaner solution that would yeild a very intuitve application would be to bui;d the app that reads the QR code from each and every part in the plant. THis would then invoke the app to display countless information about each part, and then allow logistics and other personell to manipulate and compie the data as needed. THere could be many different tiers of access depending on the employee logged in.
 
-## Future Proposed features:
- - a QR scanner to allow an employees to simply scan a part and generate a checklist. No need to hand select a part.
- - A 2 way texting feature that will work SMS both ways. As it is it will stil keep an employess\supervisors info private.
-<br><br><br>
 
 ## Realistic thoughts about the project:
 
-Some of these features would become cumbersome to seasoned employees, in fact, they all would. Once an employee knows their route there will be little to no need to use this application, save the the benefits of tracking parts for a particular route or to use as a communication portal without sharing personal information. However the benefits mostly lie with the introduction of new employees so they can do their job more effeciently sooner, and the bells and whisltes are just demonstrative of the skill set I employ. 
+I am building this as an addition to my portfolio to present to prospected future employers, and offer a description of my skills.  I think something like this could be useful and help employees to learn faster, better and although I wouldnt expect them all to use it all the time. It would be indespensble for the reasons I have listed.
 <br><br>
 
  # Disclaimer:
+Although it is tightly based on my current employers process, THe applocation will contain no propreitary info and ofeer no access to private property. Intelectual or otherwaise.
 
- This application is in no way meant to be affiliated with my current employer. It is only being used as a model for a personal portofolio project, and no property (Part numbers or route names) will be used in the production of said software. I am using my experience as a material handler to solve a problem I have encountered in my day to day life, in the hopes of demonstrating my skills as a software developer to future prospected employers.
 
  
