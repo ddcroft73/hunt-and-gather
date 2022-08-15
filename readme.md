@@ -89,7 +89,7 @@ I am building this as an addition to my portfolio to present to prospected futur
 <br><br>
 
  # Disclaimer:
-Although it is tightly based on my current employers process, THe applocation will contain no propreitary info and ofeer no access to private property. Intelectual or otherwaise.
+Although it is tightly based on my current employers process, THe application will contain no propretary info and ofger no access to private property. Intelectual or otherwise.
 
 
  
