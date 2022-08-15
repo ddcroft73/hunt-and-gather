@@ -80,7 +80,7 @@ The application will be produced in four different phases.
       - Fully functional messaging system to be used between super and employee.
    
 ## An even better Solution:
-A more modern, faster and cleaner solution that would yeild a very intuitve application would be to bui;d the app that reads the QR code from each and every part in the plant. THis would then invoke the app to display countless information about each part, and then allow logistics and other personell to manipulate and compie the data as needed. THere could be many different tiers of access depending on the employee logged in.
+A more modern, faster and cleaner solution that would yeild a more intuitve application would be to build it so that it reads the QR code from each part in the plant. This would then invoke the app to display countless pieces of information about each part, and then allow logistics and/or other personnel to manipulate and compile the data as needed. There could be many different tiers of access depending on the employee logged in.
 
 
 ## Realistic thoughts about the project:
